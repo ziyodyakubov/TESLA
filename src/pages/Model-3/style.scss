@@ -1,0 +1,26 @@
+#intro__section {
+    padding-top: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .img-wrapper {
+      position: relative;
+      padding-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: -123px;
+
+      .text{
+        width: 1010px;
+      }
+    }
+  
+    .model-s-img {
+      width: 1100px;
+      position: absolute;
+      z-index: 10;
+      bottom:-345px;
+    }
+  }

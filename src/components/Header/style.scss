@@ -1,0 +1,136 @@
+// HEADER SECTION STARTED
+header {
+    margin-top: 33px;
+  
+  
+    .left-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+  
+      .oltmishgap {
+        display: flex;
+        align-items: center;
+        gap: 53px;
+      }
+  
+      .usericon {
+        cursor: pointer;
+  
+        i {
+          padding: 13px;
+          font-size: 15px;
+          border-radius: 50%;
+          background: rgba(244, 251, 255, 0.10);
+        }
+      }
+  
+      .menubar {
+        cursor: pointer;
+  
+        i {
+          padding: 13px;
+          font-size: 15px;
+          border-radius: 50%;
+          background: rgba(244, 251, 255, 0.10);
+        }
+      }
+    }
+  
+    .header-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .logo{
+        width: 130px;
+      }
+    }
+  
+    .click-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      
+
+    
+      .model_s:hover {
+        border: 2px solid var(--1, #0081FF) !important;
+        background: rgba(244, 251, 255, 0.10);
+        color: #0081FF;
+      }
+  
+      .model_3:hover {
+        border: 2px solid var(--1, #F10221) !important;
+        background: rgba(244, 251, 255, 0.10);
+        color: #F10221;
+      }
+  
+      .model_x:hover {
+        border: 2px solid var(--1, #fff) !important;
+        background: rgba(244, 251, 255, 0.10);
+        color: #Fff;
+      }
+  
+      .model_y:hover {
+        border: 2px solid var(--1, #707070) !important;
+        background: rgba(244, 251, 255, 0.10);
+        color: #Ffff;
+      }
+  
+      .chotkiy {
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        padding: 4px 16px;
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: 2px solid #000;
+        border-radius: 85px;
+  
+        &:hover {
+          border: 2px solid #FFF;
+          background: rgba(244, 251, 255, 0.10);
+        }
+  
+      }
+    }
+  
+    .search-wrapper {
+      display: flex;
+      gap: 22px;
+      align-items: center;
+      width: 174px;
+      padding-left: 20px;
+      border: none;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border-radius: 85px;
+      background: rgba(244, 251, 255, 0.10);
+  
+      input {
+        width: 100px;
+        position: relative;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        color: #fff;
+        padding-right: 17px;
+      }
+  
+      ::placeholder {
+        color: #fff;
+        font-size: 14px;
+      }
+  
+      i {
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+  // HEADER SECTION ENDED
